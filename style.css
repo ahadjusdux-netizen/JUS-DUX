@@ -744,8 +744,6 @@ a {
   }
 }
 
-
-
 /* =========================
    SCROLL HANDSHAKE STORY
    ========================= */
@@ -919,7 +917,6 @@ a {
     margin-bottom: 20px;
   }
 }
-
 
 @media (min-width: 1101px) and (max-width: 1380px) {
   .hero-section {
