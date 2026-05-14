@@ -360,9 +360,10 @@ a {
   line-height: 1.15;
 }
 
+/* ====== UPDATED CARD POSITION ====== */
 .floating-card-one {
-  right: 2%;
-  bottom: 36px;
+  left: -10px;
+  bottom: 50px;
 }
 
 .floating-card-two {
