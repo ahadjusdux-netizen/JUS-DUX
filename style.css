@@ -477,7 +477,7 @@ a {
 }
 
 /* =========================
-   INDIA UAE DESK
+   INDIA UAE DESK & TWO COLUMN
    ========================= */
 
 .two-column {
@@ -745,178 +745,8 @@ a {
 }
 
 /* =========================
-   SCROLL HANDSHAKE STORY
+   RESPONSIVE DESIGN
    ========================= */
-
-.handshake-scroll-section {
-  height: 420vh;
-  background: #071a2f;
-  position: relative;
-}
-
-.handshake-sticky {
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #071a2f;
-}
-
-.handshake-video {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transform: scale(1.02);
-}
-
-.handshake-shade {
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(90deg, rgba(7, 26, 47, 0.92) 0%, rgba(7, 26, 47, 0.72) 34%, rgba(7, 26, 47, 0.25) 65%, rgba(7, 26, 47, 0.72) 100%),
-    linear-gradient(to bottom, rgba(7, 26, 47, 0.3), rgba(7, 26, 47, 0.78));
-  z-index: 1;
-  pointer-events: none;
-}
-
-.handshake-copy {
-  position: relative;
-  z-index: 2;
-  width: min(760px, 88vw);
-  margin-right: auto;
-  margin-left: 7%;
-  padding-top: 72px;
-}
-
-.handshake-copy .section-label {
-  color: #f0d79a;
-  margin-bottom: 26px;
-}
-
-.handshake-copy-step {
-  position: absolute;
-  top: 112px;
-  left: 0;
-  max-width: 760px;
-  opacity: 0;
-  transform: translateY(26px);
-  filter: blur(8px);
-  transition: opacity 0.55s ease, transform 0.55s ease, filter 0.55s ease;
-  pointer-events: none;
-}
-
-.handshake-copy-step.active {
-  opacity: 1;
-  transform: translateY(0);
-  filter: blur(0);
-}
-
-.handshake-copy-step span {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 54px;
-  height: 54px;
-  border: 1px solid rgba(201, 169, 106, 0.55);
-  border-radius: 50%;
-  color: #f0d79a;
-  margin-bottom: 26px;
-  background: rgba(7, 26, 47, 0.36);
-  backdrop-filter: blur(10px);
-}
-
-.handshake-copy-step h2 {
-  color: white;
-  font-size: clamp(42px, 6vw, 86px);
-  line-height: 0.98;
-  letter-spacing: -2px;
-  font-weight: normal;
-  margin-bottom: 24px;
-}
-
-.handshake-copy-step p {
-  max-width: 650px;
-  color: rgba(255, 255, 255, 0.78);
-  font-size: clamp(17px, 1.7vw, 22px);
-  line-height: 1.75;
-}
-
-.handshake-progress {
-  position: absolute;
-  left: 7%;
-  bottom: 42px;
-  z-index: 3;
-  width: min(420px, 70vw);
-  height: 2px;
-  background: rgba(255, 255, 255, 0.22);
-  overflow: hidden;
-}
-
-.handshake-progress span {
-  display: block;
-  width: 0%;
-  height: 100%;
-  background: #f0d79a;
-  transition: width 0.12s linear;
-}
-
-@media (max-width: 900px) {
-  .handshake-scroll-section {
-    height: 380vh;
-  }
-
-  .handshake-video {
-    object-position: 58% center;
-  }
-
-  .handshake-shade {
-    background:
-      linear-gradient(to bottom, rgba(7, 26, 47, 0.84) 0%, rgba(7, 26, 47, 0.52) 42%, rgba(7, 26, 47, 0.86) 100%);
-  }
-
-  .handshake-copy {
-    width: 88vw;
-    margin-left: 6%;
-    margin-right: 6%;
-    padding-top: 92px;
-  }
-
-  .handshake-copy-step {
-    top: 132px;
-  }
-
-  .handshake-copy-step h2 {
-    font-size: 44px;
-    letter-spacing: -1px;
-  }
-
-  .handshake-copy-step p {
-    font-size: 16px;
-  }
-
-  .handshake-progress {
-    left: 6%;
-    bottom: 30px;
-    width: 88vw;
-  }
-}
-
-@media (max-width: 520px) {
-  .handshake-copy-step h2 {
-    font-size: 38px;
-  }
-
-  .handshake-copy-step span {
-    width: 46px;
-    height: 46px;
-    margin-bottom: 20px;
-  }
-}
 
 @media (min-width: 1101px) and (max-width: 1380px) {
   .hero-section {
@@ -937,10 +767,6 @@ a {
     width: min(340px, 30vw);
   }
 }
-
-/* =========================
-   RESPONSIVE DESIGN
-   ========================= */
 
 @media (max-width: 1100px) {
   .desktop-menu {
